@@ -24,6 +24,7 @@ class MutexLock {
 public:
     MutexLock() { pthread_mutex_init(&mutex, nullptr); }
     ~MutexLock() { pthread_mutex_destroy(&mutex);}
+    pthread_mutex_t* getMutex()  {   return &mutex;  }
     // 加锁
     void lock() { pthread_mutex_lock(&mutex); }
     // 减锁
