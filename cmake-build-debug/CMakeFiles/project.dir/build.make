@@ -57,9 +57,129 @@ include CMakeFiles/project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/project.dir/flags.make
 
+CMakeFiles/project.dir/src/Condition.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/Condition.cpp.o: ../src/Condition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/file_transfer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project.dir/src/Condition.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/src/Condition.cpp.o -c /Users/wuay/CLionProjects/git/file_transfer/src/Condition.cpp
+
+CMakeFiles/project.dir/src/Condition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/src/Condition.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuay/CLionProjects/git/file_transfer/src/Condition.cpp > CMakeFiles/project.dir/src/Condition.cpp.i
+
+CMakeFiles/project.dir/src/Condition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/src/Condition.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuay/CLionProjects/git/file_transfer/src/Condition.cpp -o CMakeFiles/project.dir/src/Condition.cpp.s
+
+CMakeFiles/project.dir/src/Condition.cpp.o.requires:
+
+.PHONY : CMakeFiles/project.dir/src/Condition.cpp.o.requires
+
+CMakeFiles/project.dir/src/Condition.cpp.o.provides: CMakeFiles/project.dir/src/Condition.cpp.o.requires
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/Condition.cpp.o.provides.build
+.PHONY : CMakeFiles/project.dir/src/Condition.cpp.o.provides
+
+CMakeFiles/project.dir/src/Condition.cpp.o.provides.build: CMakeFiles/project.dir/src/Condition.cpp.o
+
+
+CMakeFiles/project.dir/src/MutexLock.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/MutexLock.cpp.o: ../src/MutexLock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/file_transfer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project.dir/src/MutexLock.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/src/MutexLock.cpp.o -c /Users/wuay/CLionProjects/git/file_transfer/src/MutexLock.cpp
+
+CMakeFiles/project.dir/src/MutexLock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/src/MutexLock.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuay/CLionProjects/git/file_transfer/src/MutexLock.cpp > CMakeFiles/project.dir/src/MutexLock.cpp.i
+
+CMakeFiles/project.dir/src/MutexLock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/src/MutexLock.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuay/CLionProjects/git/file_transfer/src/MutexLock.cpp -o CMakeFiles/project.dir/src/MutexLock.cpp.s
+
+CMakeFiles/project.dir/src/MutexLock.cpp.o.requires:
+
+.PHONY : CMakeFiles/project.dir/src/MutexLock.cpp.o.requires
+
+CMakeFiles/project.dir/src/MutexLock.cpp.o.provides: CMakeFiles/project.dir/src/MutexLock.cpp.o.requires
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/MutexLock.cpp.o.provides.build
+.PHONY : CMakeFiles/project.dir/src/MutexLock.cpp.o.provides
+
+CMakeFiles/project.dir/src/MutexLock.cpp.o.provides.build: CMakeFiles/project.dir/src/MutexLock.cpp.o
+
+
+CMakeFiles/project.dir/src/MutexLockGuard.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/MutexLockGuard.cpp.o: ../src/MutexLockGuard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/file_transfer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project.dir/src/MutexLockGuard.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/src/MutexLockGuard.cpp.o -c /Users/wuay/CLionProjects/git/file_transfer/src/MutexLockGuard.cpp
+
+CMakeFiles/project.dir/src/MutexLockGuard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/src/MutexLockGuard.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuay/CLionProjects/git/file_transfer/src/MutexLockGuard.cpp > CMakeFiles/project.dir/src/MutexLockGuard.cpp.i
+
+CMakeFiles/project.dir/src/MutexLockGuard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/src/MutexLockGuard.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuay/CLionProjects/git/file_transfer/src/MutexLockGuard.cpp -o CMakeFiles/project.dir/src/MutexLockGuard.cpp.s
+
+CMakeFiles/project.dir/src/MutexLockGuard.cpp.o.requires:
+
+.PHONY : CMakeFiles/project.dir/src/MutexLockGuard.cpp.o.requires
+
+CMakeFiles/project.dir/src/MutexLockGuard.cpp.o.provides: CMakeFiles/project.dir/src/MutexLockGuard.cpp.o.requires
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/MutexLockGuard.cpp.o.provides.build
+.PHONY : CMakeFiles/project.dir/src/MutexLockGuard.cpp.o.provides
+
+CMakeFiles/project.dir/src/MutexLockGuard.cpp.o.provides.build: CMakeFiles/project.dir/src/MutexLockGuard.cpp.o
+
+
+CMakeFiles/project.dir/src/TimeStamp.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/TimeStamp.cpp.o: ../src/TimeStamp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/file_transfer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project.dir/src/TimeStamp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/src/TimeStamp.cpp.o -c /Users/wuay/CLionProjects/git/file_transfer/src/TimeStamp.cpp
+
+CMakeFiles/project.dir/src/TimeStamp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/src/TimeStamp.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuay/CLionProjects/git/file_transfer/src/TimeStamp.cpp > CMakeFiles/project.dir/src/TimeStamp.cpp.i
+
+CMakeFiles/project.dir/src/TimeStamp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/src/TimeStamp.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuay/CLionProjects/git/file_transfer/src/TimeStamp.cpp -o CMakeFiles/project.dir/src/TimeStamp.cpp.s
+
+CMakeFiles/project.dir/src/TimeStamp.cpp.o.requires:
+
+.PHONY : CMakeFiles/project.dir/src/TimeStamp.cpp.o.requires
+
+CMakeFiles/project.dir/src/TimeStamp.cpp.o.provides: CMakeFiles/project.dir/src/TimeStamp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/TimeStamp.cpp.o.provides.build
+.PHONY : CMakeFiles/project.dir/src/TimeStamp.cpp.o.provides
+
+CMakeFiles/project.dir/src/TimeStamp.cpp.o.provides.build: CMakeFiles/project.dir/src/TimeStamp.cpp.o
+
+
+CMakeFiles/project.dir/src/TimerHeap.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/TimerHeap.cpp.o: ../src/TimerHeap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/file_transfer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project.dir/src/TimerHeap.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/src/TimerHeap.cpp.o -c /Users/wuay/CLionProjects/git/file_transfer/src/TimerHeap.cpp
+
+CMakeFiles/project.dir/src/TimerHeap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/src/TimerHeap.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wuay/CLionProjects/git/file_transfer/src/TimerHeap.cpp > CMakeFiles/project.dir/src/TimerHeap.cpp.i
+
+CMakeFiles/project.dir/src/TimerHeap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/src/TimerHeap.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wuay/CLionProjects/git/file_transfer/src/TimerHeap.cpp -o CMakeFiles/project.dir/src/TimerHeap.cpp.s
+
+CMakeFiles/project.dir/src/TimerHeap.cpp.o.requires:
+
+.PHONY : CMakeFiles/project.dir/src/TimerHeap.cpp.o.requires
+
+CMakeFiles/project.dir/src/TimerHeap.cpp.o.provides: CMakeFiles/project.dir/src/TimerHeap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/TimerHeap.cpp.o.provides.build
+.PHONY : CMakeFiles/project.dir/src/TimerHeap.cpp.o.provides
+
+CMakeFiles/project.dir/src/TimerHeap.cpp.o.provides.build: CMakeFiles/project.dir/src/TimerHeap.cpp.o
+
+
 CMakeFiles/project.dir/src/main.cpp.o: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/file_transfer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wuay/CLionProjects/git/file_transfer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project.dir/src/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/src/main.cpp.o -c /Users/wuay/CLionProjects/git/file_transfer/src/main.cpp
 
 CMakeFiles/project.dir/src/main.cpp.i: cmake_force
@@ -83,15 +203,25 @@ CMakeFiles/project.dir/src/main.cpp.o.provides.build: CMakeFiles/project.dir/src
 
 # Object files for target project
 project_OBJECTS = \
+"CMakeFiles/project.dir/src/Condition.cpp.o" \
+"CMakeFiles/project.dir/src/MutexLock.cpp.o" \
+"CMakeFiles/project.dir/src/MutexLockGuard.cpp.o" \
+"CMakeFiles/project.dir/src/TimeStamp.cpp.o" \
+"CMakeFiles/project.dir/src/TimerHeap.cpp.o" \
 "CMakeFiles/project.dir/src/main.cpp.o"
 
 # External object files for target project
 project_EXTERNAL_OBJECTS =
 
+bin/project: CMakeFiles/project.dir/src/Condition.cpp.o
+bin/project: CMakeFiles/project.dir/src/MutexLock.cpp.o
+bin/project: CMakeFiles/project.dir/src/MutexLockGuard.cpp.o
+bin/project: CMakeFiles/project.dir/src/TimeStamp.cpp.o
+bin/project: CMakeFiles/project.dir/src/TimerHeap.cpp.o
 bin/project: CMakeFiles/project.dir/src/main.cpp.o
 bin/project: CMakeFiles/project.dir/build.make
 bin/project: CMakeFiles/project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wuay/CLionProjects/git/file_transfer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wuay/CLionProjects/git/file_transfer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bin/project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,6 +229,11 @@ CMakeFiles/project.dir/build: bin/project
 
 .PHONY : CMakeFiles/project.dir/build
 
+CMakeFiles/project.dir/requires: CMakeFiles/project.dir/src/Condition.cpp.o.requires
+CMakeFiles/project.dir/requires: CMakeFiles/project.dir/src/MutexLock.cpp.o.requires
+CMakeFiles/project.dir/requires: CMakeFiles/project.dir/src/MutexLockGuard.cpp.o.requires
+CMakeFiles/project.dir/requires: CMakeFiles/project.dir/src/TimeStamp.cpp.o.requires
+CMakeFiles/project.dir/requires: CMakeFiles/project.dir/src/TimerHeap.cpp.o.requires
 CMakeFiles/project.dir/requires: CMakeFiles/project.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/project.dir/requires

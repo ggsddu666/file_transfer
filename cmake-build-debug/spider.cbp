@@ -84,6 +84,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/wuay/CLionProjects/git/file_transfer/src/Condition.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/wuay/CLionProjects/git/file_transfer/src/Condition.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/wuay/CLionProjects/git/file_transfer/src/MutexLock.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/wuay/CLionProjects/git/file_transfer/src/MutexLock.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/wuay/CLionProjects/git/file_transfer/src/MutexLockGuard.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/wuay/CLionProjects/git/file_transfer/src/MutexLockGuard.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/wuay/CLionProjects/git/file_transfer/src/TimeStamp.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/wuay/CLionProjects/git/file_transfer/src/TimeStamp.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/wuay/CLionProjects/git/file_transfer/src/TimerHeap.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/wuay/CLionProjects/git/file_transfer/src/TimerHeap.h">
+			<Option target="project"/>
+		</Unit>
 		<Unit filename="/Users/wuay/CLionProjects/git/file_transfer/src/main.cpp">
 			<Option target="project"/>
 		</Unit>

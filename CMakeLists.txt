@@ -3,6 +3,7 @@ project(spider)
 
 
 set(CMAKE_CXX_STANDARD 11)
+add_definitions(-std=c++11)
 
 AUX_SOURCE_DIRECTORY(./src SRC_DIR)
 INCLUDE_DIRECTORIES( include )

@@ -18,7 +18,7 @@
  *
  * */
 
-#include <pthread>
+#include <pthread.h>
 
 class MutexLock {
 public:
