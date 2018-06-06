@@ -22,4 +22,5 @@ inline bool operator<(TimeStamp &s, TimeStamp &h) { return s.get_microseconds() 
 inline bool operator>(TimeStamp &s, TimeStamp &h) { return s.get_microseconds() < h.get_microseconds(); }
 inline bool operator==(TimeStamp &s, TimeStamp &h) { return s.get_microseconds() == h.get_microseconds(); }
 
+
 #endif //SPIDER_TIMESTAMP_H

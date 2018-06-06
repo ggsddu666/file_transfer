@@ -20,5 +20,6 @@ CMakeFiles/project.dir/src/TimerHeap.cpp.o: ../src/TimerHeap.cpp
 CMakeFiles/project.dir/src/TimerHeap.cpp.o: ../src/TimerHeap.h
 
 CMakeFiles/project.dir/src/main.cpp.o: ../src/TimeStamp.h
+CMakeFiles/project.dir/src/main.cpp.o: ../src/TimerHeap.h
 CMakeFiles/project.dir/src/main.cpp.o: ../src/main.cpp
 
