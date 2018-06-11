@@ -7,6 +7,10 @@
 #include "TimerHeap.h"
 
 
+
+
+
+
 /***********堆的相关操作*************/
 typedef std::vector<Entry>::iterator Iterator;
 typedef std::vector<int>::iterator Iterator_int;  // 仅做测试用
@@ -82,13 +86,47 @@ inline bool comp(const int s, const int v) {
     return s < v;
 }
 
+
+/*
+ *
+ *
+ * */
+timespec homMuchTimeFromNow(TimeStamp when) {
+    int64_t microseconds = when.get_microseconds();
+    if(microseconds < 100)
+        microseconds = 100;
+    struct timespec ts;
+    // 秒和纳秒
+    ts.tv_sec = microseconds / TimeStamp::kmicroseconds;
+    ts.tv_nsec = microseconds % TimeStamp::kmicroseconds * 1000;
+    return ts;
+}
+
+/*
+ *
+ *  创建一个timerfd
+ *
+ * */
+int createTimer() {
+    // CLOCK_MONOTONIC:以固定的速率运行，从不进行调整和复位 ,它不受任何系统time-of-day时钟修改的影响
+    int timerfd = timerfd_create(CLOCK_MONOTONIC, TFD_NONBLOCK | TFD_CLOEXEC );
+}
+
+
+
 void TimerHeap::test() {
+     /***** 测试堆操作 ***/
 //    std::vector<int> vec = {1, 3, 5, 11, 4, 6, 7, 12 ,15, 10, 9, 8, 2};
 //    push_heap(vec.begin(), vec.end(), comp);
-
     // 此时用的是系统的pop_heap，如果要用自定义pop_heap，将pop_heap函数的参数Iterator改为Iterator_int
 //    std::vector<int> vec = {0, 1, 7, 2, 5, 9, 10, 6, 3};
 //    pop_heap(vec.begin(), vec.end(), comp);
 //    for(auto i : vec)
 //       std::cout << i << " ";
+     /***** 测试堆操作end ***/
+
+//    TimeStamp T(103423444);
+//    timespec ts;
+//    ts = homMuchTimeFromNow(T);
+//    std::cout << ts.tv_sec << " " << ts.tv_nsec << std::endl;
 }

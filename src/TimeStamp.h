@@ -13,6 +13,7 @@ public:
     TimeStamp(int64_t microseconds_arg): microseconds(microseconds_arg) {}
     ~TimeStamp() {}
     int64_t get_microseconds() { return microseconds; }
+    static const int kmicroseconds = 1000 * 1000;   // 用来将microseconds转化成seconds
 
 private:
     int64_t microseconds;
