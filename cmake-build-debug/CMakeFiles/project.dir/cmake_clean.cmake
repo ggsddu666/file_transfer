@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/project.dir/src/TimeStamp.cpp.o"
   "CMakeFiles/project.dir/src/TimerHeap.cpp.o"
   "CMakeFiles/project.dir/src/main.cpp.o"
+  "CMakeFiles/project.dir/src/str_tool.cpp.o"
   "bin/project.pdb"
   "bin/project"
 )

@@ -285,6 +285,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/str_tool.o: src/str_tool.cpp.o
+
+.PHONY : src/str_tool.o
+
+# target to build an object file
+src/str_tool.cpp.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/str_tool.cpp.o
+.PHONY : src/str_tool.cpp.o
+
+src/str_tool.i: src/str_tool.cpp.i
+
+.PHONY : src/str_tool.i
+
+# target to preprocess a source file
+src/str_tool.cpp.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/str_tool.cpp.i
+.PHONY : src/str_tool.cpp.i
+
+src/str_tool.s: src/str_tool.cpp.s
+
+.PHONY : src/str_tool.s
+
+# target to generate assembly for a file
+src/str_tool.cpp.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/str_tool.cpp.s
+.PHONY : src/str_tool.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +339,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/str_tool.o"
+	@echo "... src/str_tool.i"
+	@echo "... src/str_tool.s"
 .PHONY : help
 
 

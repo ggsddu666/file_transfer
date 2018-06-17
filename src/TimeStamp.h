@@ -11,17 +11,18 @@
 class TimeStamp {
 public:
     TimeStamp(int64_t microseconds_arg): microseconds(microseconds_arg) {}
+    TimeStamp() {}
     ~TimeStamp() {}
-    int64_t get_microseconds() { return microseconds; }
+    int64_t get_microseconds() const { return microseconds; }
     static const int kmicroseconds = 1000 * 1000;   // 用来将microseconds转化成seconds
 
 private:
     int64_t microseconds;
 };
 
-inline bool operator<(TimeStamp &s, TimeStamp &h) { return s.get_microseconds() < h.get_microseconds(); }
-inline bool operator>(TimeStamp &s, TimeStamp &h) { return s.get_microseconds() < h.get_microseconds(); }
-inline bool operator==(TimeStamp &s, TimeStamp &h) { return s.get_microseconds() == h.get_microseconds(); }
+inline bool operator<(const TimeStamp &s, const TimeStamp &h) { return s.get_microseconds() < h.get_microseconds(); }
+inline bool operator>(const TimeStamp &s, const TimeStamp &h) { return s.get_microseconds() < h.get_microseconds(); }
+inline bool operator==(const TimeStamp &s, const TimeStamp &h) { return s.get_microseconds() == h.get_microseconds(); }
 
 
 #endif //SPIDER_TIMESTAMP_H
