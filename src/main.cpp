@@ -1,10 +1,11 @@
 #include <iostream>
-// #include "TimerHeap.h"
+#include "TimerHeap.h"
 #include <vector>
 #include "str_tool.h"
 #include <unistd.h>
-
-
+#include "sysutil.h"
+#include "common.h"
+using namespace sysutil;
 
 bool comp(const int s, const int v) {
     return s < v;
@@ -64,8 +65,50 @@ auto timer_handler = []	{ std::cout << "空闲断开" << std::endl;	};	//空闲�
 ////    while(1) {}
 //    return 0;
 //}
+//int main() {
+//    std::string str = "qazwsxedc";
+//    std::string left = "", right = "";
+//    char c = 'w';
+//    str_split(str, left, right, c);
+//    std::cout << left << "~~" << right << std::endl;
+//
+//    std::string str2 = "   adasddas    ";
+//    str_delspace(str2);
+//    std::cout << str2 << std::endl;
+//
+//    std::string str3 = "qazqaz";
+//    str_upper(str3);
+//    std::cout << str3 << std::endl;
+//
+//    std::string str4 = "1622213132";
+//    unsigned int re = str_octal_to_uint(str4);
+//    std::cout << re << std::endl;
+//
+//    std::string str5 = "1622213132";
+//    long long re5 = str_to_longlong(str5);
+//    std::cout << re5 << std::endl;
+//};
 
-int main {
+int main() {
+    // 服务端
+    int sock = tcp_server("127.0.0.1", 50000);
 
-};
+    pid_t childPid;
+    switch (childPid = fork()) {
+        case 0:
+            // 子进程
+            sleep(3);
+            std::cout << "child is running" << std::endl;
+            tcp_client(50000);
+        default:
+            int clientFd = accept(sock, NULL, 0);
+            // 接受数据
+            char buf[100];
+            recv(clientFd, buf, sizeof(buf), 0);
+            std::cout << "server recv" << std::endl;
+            std::cout << buf << std::endl;
+            send(clientFd, buf, sizeof(buf), 0);
+    }
+
+}
 

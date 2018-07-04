@@ -285,6 +285,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+str_tool.o: str_tool.cpp.o
+
+.PHONY : str_tool.o
+
+# target to build an object file
+str_tool.cpp.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/str_tool.cpp.o
+.PHONY : str_tool.cpp.o
+
+str_tool.i: str_tool.cpp.i
+
+.PHONY : str_tool.i
+
+# target to preprocess a source file
+str_tool.cpp.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/str_tool.cpp.i
+.PHONY : str_tool.cpp.i
+
+str_tool.s: str_tool.cpp.s
+
+.PHONY : str_tool.s
+
+# target to generate assembly for a file
+str_tool.cpp.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/str_tool.cpp.s
+.PHONY : str_tool.cpp.s
+
+sysutil.o: sysutil.cpp.o
+
+.PHONY : sysutil.o
+
+# target to build an object file
+sysutil.cpp.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sysutil.cpp.o
+.PHONY : sysutil.cpp.o
+
+sysutil.i: sysutil.cpp.i
+
+.PHONY : sysutil.i
+
+# target to preprocess a source file
+sysutil.cpp.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sysutil.cpp.i
+.PHONY : sysutil.cpp.i
+
+sysutil.s: sysutil.cpp.s
+
+.PHONY : sysutil.s
+
+# target to generate assembly for a file
+sysutil.cpp.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/sysutil.cpp.s
+.PHONY : sysutil.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +366,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... str_tool.o"
+	@echo "... str_tool.i"
+	@echo "... str_tool.s"
+	@echo "... sysutil.o"
+	@echo "... sysutil.i"
+	@echo "... sysutil.s"
 .PHONY : help
 
 
